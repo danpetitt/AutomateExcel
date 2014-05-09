@@ -58,7 +58,8 @@ excel.quit();
 ```
 
 #####You can supply a function for finding a worksheet name as the default just does a case insensitive comparison
-```var excel = new Excel();
+```
+var excel = new Excel();
 
 excel.openFile( "d:\\testfile.xlsx" );
 
